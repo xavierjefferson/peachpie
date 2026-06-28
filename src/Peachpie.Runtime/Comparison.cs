@@ -452,7 +452,7 @@ namespace Pchp.Core
 		/// </summary>
         public static int Compare(string/*!*/sx, long ly)
         {
-            if (sx != null) throw new ArgumentNullException(sx);
+            if (sx == null) throw new ArgumentNullException(nameof(sx));
            // Debug.Assert(sx != null);
 
             return ((Convert.StringToNumber(sx, out var lx, out var dx) & Convert.NumberInfo.Double) != 0)
