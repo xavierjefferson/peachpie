@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <NoWarn>$(NoWarn);1591;1574</NoWarn>
+    <NoWarn>$(NoWarn);1591;1574</NoWarn>    <TargetFrameworks>net10.0</TargetFrameworks>
     <AssemblyName>Peachpie.Library.Scripting</AssemblyName>
     <PackageId>Peachpie.Library.Scripting</PackageId>
     <PackageTags>peachpie;library;scripting</PackageTags>

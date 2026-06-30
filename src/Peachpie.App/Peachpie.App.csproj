@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+     
     <Description>Peachpie platform dependencies.</Description>
     <AssemblyName>Peachpie.App</AssemblyName>
     <PackageId>Peachpie.App</PackageId>
@@ -8,6 +9,8 @@
     <IncludeSymbols>false</IncludeSymbols>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <NoWarn>$(NoWarn),NU5128</NoWarn>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+   
   </PropertyGroup>
 
   <ItemGroup>

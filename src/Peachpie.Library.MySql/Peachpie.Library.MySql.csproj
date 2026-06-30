@@ -3,6 +3,7 @@
   <PropertyGroup>
     <AssemblyName>Peachpie.Library.MySql</AssemblyName>
     <PackageId>Peachpie.Library.MySql</PackageId>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <PackageTags>peachpie;library;mysql</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Peachpie PHP language MySql library functions.</Description>

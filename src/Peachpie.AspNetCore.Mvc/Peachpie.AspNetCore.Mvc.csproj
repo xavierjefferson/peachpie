@@ -7,6 +7,8 @@
     <PackageTags>peachpie;web;mvc;razor</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Allows integration of PeachPie compiled PHP code into ASP.NET Core MVC.</Description>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+   
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <NoWarn>$(NoWarn);1591;1574</NoWarn>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <AssemblyName>Peachpie.Library.Graphics</AssemblyName>
     <PackageId>Peachpie.Library.Graphics</PackageId>
     <PackageTags>peachpie;library;image;gd2</PackageTags>

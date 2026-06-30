@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+   
     <AssemblyName>Peachpie.Library.PDO</AssemblyName>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <PackageId>Peachpie.Library.PDO</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>

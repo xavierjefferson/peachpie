@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+   
     <NoWarn>$(NoWarn);1591;1574</NoWarn>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <AssemblyName>Peachpie.Library.XmlDom</AssemblyName>
     <PackageId>Peachpie.Library.XmlDom</PackageId>
     <PackageTags>peachpie;library;xml;dom</PackageTags>
