@@ -25,4 +25,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.300" />
+  </ItemGroup>
+
 </Project>

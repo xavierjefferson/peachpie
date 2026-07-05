@@ -14,11 +14,11 @@
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
     <PackageReference Include="Mvp.Xml.NetStandard" Version="1.1.1" />
-    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.0" />
-    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
-    <PackageReference Include="System.Xml.XPath" Version="4.3.0" />
+    <PackageReference Include="system.codedom" Version="10.0.9" />
+    <PackageReference Include="system.drawing.common" Version="10.0.9" />
+    <PackageReference Include="system.security.cryptography.xml" Version="10.0.9" />
+    <PackageReference Include="system.security.permissions" Version="10.0.9" />
     <PackageReference Include="System.Xml.XPath.XmlDocument" Version="4.3.0" />
-	<PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +39,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.300" />
   </ItemGroup>
   
 </Project>

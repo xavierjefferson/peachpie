@@ -25,4 +25,8 @@
     <ProjectReference Include="..\PDO\Peachpie.Library.PDO\Peachpie.Library.PDO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="10.0.300" />
+  </ItemGroup>
+
 </Project>
